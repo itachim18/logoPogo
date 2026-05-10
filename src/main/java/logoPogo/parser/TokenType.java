@@ -1,0 +1,11 @@
+package logoPogo.parser;
+
+public enum TokenType {
+    TO, END, IF, IFELSE, REPEAT, MAKE, OUTPUT, STOP,
+    LBRACKET, RBRACKET, LPAREN, RPAREN,
+    PLUS, MINUS, STAR, SLASH, EQ, LT, GT, LE, GE, NE,
+    NUMBER, STRING_LITERAL,
+    VAR_REF,
+    IDENT,
+    COMMENT, NEWLINE, EOF, UNKNOWN
+}
